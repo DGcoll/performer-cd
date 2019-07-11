@@ -1,0 +1,297 @@
+/*
+    __Conect Me___________________________________
+    |                                             |  
+    |--- UX / Ui Develope By   : Ahmed Mohamed Gad |
+    |--- Mobile : +201113478716                   |
+    |--- Email : ahmedsoft220@gmail.com           |
+    |_____________________________________________|
+*/
+.a-div:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.bgApp {
+  background: url("../img/bg-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-y: scroll; }
+  .bgApp:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 0;
+    top: 0; }
+  .bgApp .con-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 23;
+    margin: auto;
+    color: #fff; }
+    .bgApp .con-app .form-app {
+      padding: 15px !important;
+      overflow: hidden; }
+      .bgApp .con-app .form-app .lead {
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 20px black; }
+      .bgApp .con-app .form-app .lead:first-of-type {
+        font-size: 1.8em; }
+      @media (max-width: 400px) {
+        .bgApp .con-app .form-app .lead {
+          font-size: 1em; }
+        .bgApp .con-app .form-app .lead:first-of-type {
+          font-size: 1.2em; } }
+      .bgApp .con-app .form-app .form-group {
+        position: relative;
+        padding-left: 40px;
+        background: #fff;
+        border-radius: 5px; }
+        .bgApp .con-app .form-app .form-group .ts-icon {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          color: #6b757d;
+          width: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .bgApp .con-app .form-app .form-group input {
+          border-color: transparent !important; }
+          .bgApp .con-app .form-app .form-group input:focus {
+            outline: none;
+            box-shadow: none; }
+      .bgApp .con-app .form-app .btn {
+        border: 3px solid transparent;
+        color: #a87f29;
+        font-size: 19px;
+        padding: 2px;
+        background: #fff;
+        letter-spacing: 1px; }
+        .bgApp .con-app .form-app .btn:hover {
+          background: #a87f29;
+          color: #fff; }
+      .bgApp .con-app .form-app .foot-form .form-check {
+        border-right: 1px solid #fff;
+        padding-right: 5px; }
+      .bgApp .con-app .form-app .foot-form .form-check, .bgApp .con-app .form-app .foot-form a {
+        display: inline-block;
+        vertical-align: middle;
+        color: #fff; }
+
+.brand-e {
+  color: #fff;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 6px solid #fff;
+  margin: 0 !important;
+  border-radius: 5px;
+  font-size: 50px; }
+  .brand-e .ierek {
+    background: #fff;
+    color: #a87f29;
+    letter-spacing: 5px;
+    border-right: 6px solid #fff; }
+  .brand-e .ierek, .brand-e .ierek-s {
+    display: block;
+    float: left;
+    padding: 0 8px; }
+
+.a-div {
+  width: 225px;
+  height: 225px;
+  position: relative;
+  background: url("../img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .a-div:hover {
+    text-decoration: none; }
+    .a-div:hover:before {
+      transform: rotate(134deg); }
+  .a-div:first-of-type {
+    background: url("../img/author.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .a-div:last-of-type {
+    background: url("../img/chairs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .a-div:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 3px solid #a87f29;
+    border: 8px solid transparent;
+    z-index: 3;
+    border-radius: 50%;
+    border-right: 8px solid #fff;
+    border-left: 8px solid #fff;
+    transform: rotate(44deg);
+    transition: all 0.3s linear; }
+  .a-div .b-div {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background: transparent !important;
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    z-index: 33;
+    justify-content: space-between;
+    border: 3px solid;
+    height: 63px;
+    align-items: center;
+    letter-spacing: 2px; }
+    .a-div .b-div:after, .a-div .b-div:before {
+      content: " e";
+      display: inline-block;
+      padding: 0 20px;
+      height: 100%;
+      background: #fff;
+      text-shadow: none !important; }
+
+.div-golfo {
+  background: rgba(0, 0, 0, 0.33);
+  color: #fff;
+  padding: 20px 10px !important;
+  border-radius: 5px; }
+  .div-golfo .head-author {
+    margin-bottom: 30px; }
+  .div-golfo .form-group {
+    border-radius: 13px !important;
+    overflow: hidden; }
+    .div-golfo .form-group .ts-icon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      color: #6b757d;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .div-golfo .form-group input, .div-golfo .form-group .custom-select {
+      border-color: transparent !important; }
+      .div-golfo .form-group input:focus, .div-golfo .form-group .custom-select:focus {
+        outline: none;
+        box-shadow: none; }
+  .div-golfo .btn {
+    border: none !important;
+    color: #fff !important;
+    background: #a87f29 !important; }
+    .div-golfo .btn:hover {
+      background: #fff !important;
+      color: #6b757d !important;
+      box-shadow: 1px 1px 5px 0px black; }
+  .div-golfo a.btn {
+    color: #6b757d !important;
+    background: #fff !important;
+    border: none !important;
+    box-shadow: 1px 1px 5px 0px black; }
+    .div-golfo a.btn:hover {
+      background: #a87f29 !important;
+      color: #fff !important;
+      box-shadow: none; }
+
+.line-gr {
+  overflow: hidden; }
+
+.reviews-a {
+  background: #ddd; }
+
+.reviews-a {
+  background: #fff;
+  overflow: hidden; }
+  .reviews-a > header {
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px #6b757d;
+    border-radius: 5px; }
+    .reviews-a > header .rev-header {
+      padding: 2px 5px;
+      font-size: 15px;
+      letter-spacing: 1px;
+      background: #a87f29;
+      border-color: #a87f29; }
+      .reviews-a > header .rev-header:active, .reviews-a > header .rev-header:focus {
+        background: #a87f29 !important;
+        border-color: #a87f29;
+        box-shadow: 0 0 0 0.2rem rgba(168, 126, 41, 0.53); }
+    .reviews-a > header nav {
+      background: #fff !important; }
+
+.select,
+#locale {
+  width: 100%; }
+
+.like {
+  margin-right: 10px; }
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #a87f28;
+  background-color: #a87f28; }
+
+a {
+  cursor: pointer; }
+
+.dataTable table tr {
+  box-shadow: 0px 0px 0px 0px black; }
+.dataTable table thead th {
+  font-size: .9em !important;
+  color: #a87f29; }
+.dataTable table td {
+  font-size: 0.89em !important; }
+.dataTable table .go-link {
+  min-width: 136px;
+  text-align: center;
+  margin-top: 5px;
+  color: #a87f29; }
+.dataTable table tbody tr:hover {
+  background-color: #a87f28;
+  color: #fff; }
+  .dataTable table tbody tr:hover a {
+    color: #fff; }
+.dataTable .page-item.active .page-link {
+  background: #a87f29;
+  border-color: #a87f29; }
+  .dataTable .page-item.active .page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(168, 127, 40, 0.64) !important; }
+.dataTable .page-link {
+  color: #a87f29; }
+  .dataTable .page-link:focus {
+    box-shadow: 0 0 0 0.2rem rgba(168, 127, 40, 0.64) !important; }
+
+/*# sourceMappingURL=stylc.css.map */

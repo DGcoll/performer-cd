@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>reviews</title>
+
+        <!-- For icons -->
+        <link rel="stylesheet" href="./css/all.min.css" />
+
+        <!-- Style -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <!-- <link href="https://unpkg.com/bootstrap-table@1.15.2/dist/bootstrap-table.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <link href="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.css" rel="stylesheet"/>
+        <script src="./js/tp.js"></script>
+    </head>
+    <body>     
+            <header class="sm-header" sm-header="header">
+
+                    <div class="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap col-12 align-content-center" sm-brand="brand">
+                        <a class="sb-inline" href="#"><img src="./img/logo.event.png" class="img-fluid" /></a>
+                        <a href="./reviews.html" class="rev-header btn btn-secondary" a-link="reviewer"> <i class="fas fa-pen-square"></i> Reviewer area</a>
+                    </div>
+                    <nav class="navbar navbar-expand-lg justify-content-end navbar-light bg-light" a-link="nav">
+                        <button class="navbar-toggler menu-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="menu-btn__icon" >
+                                <span class="icon icon--menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <span class="icon icon--close">
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </div>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./author.html"> <i class="fas fa-scroll"></i> My papers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-globe-europe"></i> Conference website</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-user-tie"></i>   Mourad Amer
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="./edit.html"> <i class="fas fa-id-card"></i> My Profile</a>
+                                        <a class="dropdown-item" href="./index.html"> <i class="fas fa-sign-out-alt"></i> Logout</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            
+        <div class="w-100 container-fluid reviews-a" bgpage="reviews-a">
+            <section class="py-3">
+                <div class="list-group">
+                    <a href="./cherry-pick-papers.html" class="list-group-item not-info list-group-item-action list-group-item-warning">
+                            <span class="icon-n"><i class="fas fa-cog fa-spin"></i></span>
+                            Choose papers that you want to review
+                            Click Here !
+                    </a>
+                  </div>
+                  <div class="w-100 dataTable py-3 " main="tables">
+                          <table
+                          id="table"
+                          class="display table  table-bordered    table-hover"
+                          data-show-columns="true"
+                          data-pagination="true"
+                          data-search="true"
+                          data-show-export="true"
+                          data-side-pagination="server"
+                          data-show-toggle="true"
+                          data-show-print="true"
+                          data-defer-url="https://examples.wenzhixin.net.cn/examples/bootstrap_table/data"
+                          data-page-number="1"
+                          data-total-rows="11">
+                          <thead>
+                                <tr>
+                                        <th  data-field="id" data-sortable="true">Paper Number</th>
+                                        <th data-field="Title-of-the-paper" data-sortable="true">Title of the paper</th>
+                                        <th data-field="List-of-authors" data-sortable="true">List of authors</th>
+                                        <th data-field="Submission-track" data-sortable="true">Submission track</th>
+                                        <th data-field="Has-been-conducted" data-sortable="true">Has been conducted</th>
+                                        <th data-field="Submission-date" data-sortable="true">Submission date</th>
+                                        <th data-field="Last-revision-date" data-sortable="true"> Last revision date</th>
+                                        <th data-field="Author-submitted-revised-paper" data-sortable="true">Author submitted revised paper</th>
+                                        <th data-field="id" data-formatter="Actions" data-sortable="true">Actions</th>
+                                    </tr>
+                          </thead>
+                          <tbody>
+                                <tr>
+                                        <td>529</td>
+                                        <td>role of small scale wastewater treatment inpalestine</td>
+                                        <td>Mohammad Sbeih, Mohammad Sbeih</td>
+                                        <td>Track 1. Engineering applications for environmental management</td>
+                                        <td>No</td>
+                                        <td>Not yet</td>
+                                        <td>Not yet</td>
+                                        <td>No</td>
+                                      
+                                    </tr>
+                                <tr>
+                                        <td>529</td>
+                                        <td>role of small scale wastewater treatment inpalestine</td>
+                                        <td>Mohammad Sbeih, Mohammad Sbeih</td>
+                                        <td>Track 1. Engineering applications for environmental management</td>
+                                        <td>No</td>
+                                        <td>Not yet</td>
+                                        <td>Not yet</td>
+                                        <td>No</td>                                      
+                                    </tr>
+                          </tbody>
+                        </table>
+                        
+                  </div>
+             
+            </section>
+        </div>
+
+        <!-- Script -->
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+        <script src="https://unpkg.com/tableexport.jquery.plugin/libs/jsPDF/jspdf.min.js"></script>
+        <script src="https://unpkg.com/tableexport.jquery.plugin/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/extensions/defer-url/bootstrap-table-defer-url.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/extensions/print/bootstrap-table-print.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/extensions/export/bootstrap-table-export.min.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>

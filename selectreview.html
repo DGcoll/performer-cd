@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>reviews</title>
+
+        <!-- For icons -->
+        <link rel="stylesheet" href="./css/all.min.css" />
+
+        <!-- Style -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <!-- <link href="https://unpkg.com/bootstrap-table@1.15.2/dist/bootstrap-table.min.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <link href="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.css" rel="stylesheet"/>
+        <script src="./js/tp.js"></script>
+    </head>
+    <body>     
+            <header class="sm-header" sm-header="header">
+
+                    <div class="d-flex justify-content-lg-between justify-content-center align-items-center flex-wrap col-12 align-content-center" sm-brand="brand">
+                        <a class="sb-inline" href="#"><img src="./img/logo.event.png" class="img-fluid" /></a>
+                        <a href="./reviews.html" class="rev-header btn btn-secondary" a-link="reviewer"> <i class="fas fa-pen-square"></i> Reviewer area</a>
+                    </div>
+                    <nav class="navbar navbar-expand-lg justify-content-end navbar-light bg-light" a-link="nav">
+                        <button class="navbar-toggler menu-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="menu-btn__icon" >
+                                <span class="icon icon--menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <span class="icon icon--close">
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </div>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="./author.html"> <i class="fas fa-scroll"></i> My papers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-globe-europe"></i> Conference website</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fas fa-user-tie"></i>   Mourad Amer
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="./edit.html"> <i class="fas fa-id-card"></i> My Profile</a>
+                                        <a class="dropdown-item" href="./index.html"> <i class="fas fa-sign-out-alt"></i> Logout</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            
+                 <div class="w-100 container-fluid reviews-a" bgpage="reviews-a">
+                <section class="py-3">
+                          <form class="w-100">
+
+                            <div class="form-group col-12 pt-3 px-0 col-sm-6 col-lg-3">
+                                    <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                              <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                          </div>
+                                  </div>
+                          </form>
+                          <div class="w-100 dataTable py-3 " main="tables">
+                                <table id="DataTable" dtable="datatable" class="display table  table-bordered  table-responsive  table-hover" style="width:100%">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Reviewing interests</th>
+                                                <th>Rating</th>
+                                                <th>Done</th>
+                                                <th>Weeks</th>
+                                                <th>Latest</th>
+                                                <th>Active</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><a  class="d-block go-link" href="">Professor Hassan Abdalla</a></td>
+                                                <td>Dean of the School of Architecture, Computing and Engineering (ACE), A fellow of the Royal Society for the Encouragement of Arts, Manufactures and Commerce, the Institution of Mechanical Engineers (IMechE)</td>
+                                                <td>N/A</td>
+                                                <td>0</td>
+                                                <td>2</td>
+                                                <td>2017-09-12</td>
+                                                <td>0</td>
+                                                <td>
+                                                    <a class="d-block go-link" href="">Assign</a>
+                                                </td>                                        
+                                            </tr>
+                                                                        
+                                        </tbody>
+                                    </table>  
+                          </div>
+                     
+                    </section>
+        </div>
+
+        <!-- Script -->
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/tableexport.jquery.plugin/tableExport.min.js"></script>
+        <script src="https://unpkg.com/tableexport.jquery.plugin/libs/jsPDF/jspdf.min.js"></script>
+        <script src="https://unpkg.com/tableexport.jquery.plugin/libs/jsPDF-AutoTable/jspdf.plugin.autotable.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/bootstrap-table.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/extensions/defer-url/bootstrap-table-defer-url.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/extensions/print/bootstrap-table-print.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.15.3/dist/extensions/export/bootstrap-table-export.min.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
